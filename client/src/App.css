@@ -1,0 +1,165 @@
+.App {
+    text-align: center;
+    color: #585858;
+}
+
+.App-logo {
+    height: 40vmin;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #09d3ac;
+}
+
+/* HEADER *******/
+.header {
+    height: 100px;
+}
+
+.header h1 {
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+
+.header .user-infos {
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.header .user-infos p{
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+/* FOOTER *******/
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+/* LEFT COLUMN *****/
+.left-column{
+    float: left;
+    margin: 24px 50px;
+}
+
+.left-column ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    
+}
+
+.left-column li {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: left;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+}
+
+.left-column li.active {
+    border: 3px solid #008CBA;
+}
+
+/* CONTENT *******/
+
+.content{
+    position: absolute;
+    width: 100%;
+}
+
+.content table{
+    width: 425px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+.content tr, .content td, .content  th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.content  tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.content  th {
+    padding-top: 12px;
+    padding-bottom: 12px;   
+    background-color: #697d80;
+    color: white;
+}
+.content h1{
+    margin-bottom: 20px;;
+}
+
+/* ********************/
+
+input{
+    height: 41px;
+    width: 320px;
+    border: 1px solid #ddd;
+    
+}
+button{
+    height: 45px;
+    background-color: #008CBA;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-style: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#006688;
+}
+.button1 {
+    width: 100px;
+}
+.button2{
+    width: 250px;
+    margin: 78px 50px;
+}
+
+::placeholder{
+    font-style: italic;
+}
+
+select {
+    appearance: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+  }
+
+select {
+    height: 44px;
+    width: 320px;
+    border: 1px solid #ddd;
+    background-color: #f1f1f1;
+    color: #585858; 
+}
