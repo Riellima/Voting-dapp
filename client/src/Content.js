@@ -38,11 +38,11 @@ export default class Content extends React.Component {
                         <h3>List of voters</h3>
                         <table>
                             <tr>
-                                <th>DESCRIPTION</th>
+                                <th>WHITELIST</th>
                             </tr>
                             {voters.map((addr) => (
                                 <tr>
-                                    <td>{addr   }</td>
+                                    <td>{addr}</td>
                                 </tr>
                             ))}
                         </table>
