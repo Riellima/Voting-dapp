@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Voting-dapp/precache-manifest.43d05895e26e7fe131fccd2fa4992962.js"
+  "/Voting-dapp/precache-manifest.63acba3dd9247cbdebe38d2a56ad018c.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "735a1cc1fbb9eba548f27c250935e143",
+    "revision": "a5409d3f82f94ddaf7a17aa50a28891c",
     "url": "/Voting-dapp/index.html"
   },
   {
-    "revision": "fbf987777c1048e796eb",
-    "url": "/Voting-dapp/static/css/main.a183cd99.chunk.css"
+    "revision": "f7854f204b2e93bd3b26",
+    "url": "/Voting-dapp/static/css/main.42531301.chunk.css"
   },
   {
     "revision": "09bef1899493be585e6b",
     "url": "/Voting-dapp/static/js/2.2cce6682.chunk.js"
   },
   {
-    "revision": "fbf987777c1048e796eb",
+    "revision": "f7854f204b2e93bd3b26",
     "url": "/Voting-dapp/static/js/main.1c5a57a1.chunk.js"
   },
   {
